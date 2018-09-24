@@ -6,6 +6,7 @@ class Cat
     @name = name
     @mood = mood
   end
+  #we have an attr_reader for mood because we are just exposing this data?
   
   def self.name
     @name
