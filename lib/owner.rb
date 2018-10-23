@@ -9,6 +9,9 @@ class Owner
     @@all << self
   end
 
+  def say_species
+    puts "#{species}"
+
   def self.reset_all
     @@all.clear
   end
