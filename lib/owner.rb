@@ -1,5 +1,5 @@
 class Owner
-  attr_accessor :name, :pets
+  attr_accessor :name, :pets, :mood
   attr_reader :species
 
   @@all = []
@@ -28,6 +28,8 @@ class Owner
     fido = Dog.new(name)
     @pets[:dogs] << fido
   end
+
+
 
   def self.reset_all
     @@all.clear
