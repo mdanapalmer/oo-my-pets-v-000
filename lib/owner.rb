@@ -48,9 +48,11 @@ def feed_fish
 end
 
 def sell_pets
-  pets.each do |pet|
+  pets.each do |species, pets|
+    pets.each do |pet|
     pet.mood = "nervous"
   end
+  pets.clear
 end
 
   def self.reset_all
