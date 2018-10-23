@@ -24,6 +24,11 @@ class Owner
     @pets[:cats] << crooks
   end
 
+  def buy_dog(name)
+    fido = Dog.new(name)
+    @pets[:dogs] << fido
+  end
+
   def self.reset_all
     @@all.clear
   end
