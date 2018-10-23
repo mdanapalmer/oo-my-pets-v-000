@@ -8,5 +8,3 @@ class Fish
   end
 
 end
-
-end
