@@ -29,7 +29,9 @@ class Owner
     @pets[:dogs] << fido
   end
 
-
+  def walk_dogs
+    dog.mood = "happy"
+  end
 
   def self.reset_all
     @@all.clear
