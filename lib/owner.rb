@@ -72,5 +72,4 @@ end
     @@all
   end
 
-
 end
