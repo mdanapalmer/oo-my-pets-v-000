@@ -1,19 +1,13 @@
 class Cat
-  attr_reader :name
-  attr_accessor :mood
-  
-  def initialize(name, mood="nervous")
+  attr_reader :name, :mood
+
+  def initialize(name)
     @name = name
-    @mood = mood
+    @mood = "nervous"
   end
-  #we have an attr_reader for mood because we are just exposing this data?
-  
-  def self.name
-    @name
+
+  def mood=(new_mood)
+    mood = new_mood
   end
-  
-  def self.mood(new_mood)
-    self.mood = (new_mood)
-  end
-  
+
 end
