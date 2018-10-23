@@ -7,7 +7,12 @@ class Owner
     @name = name
     @@all << self
   end
+
+  def owner_count
+    @@all.size
+  end
   
+
 
   def self.all
     @@all
