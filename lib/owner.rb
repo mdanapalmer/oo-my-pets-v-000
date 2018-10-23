@@ -50,6 +50,7 @@ end
 def sell_pets
   pets[:fishes, :dogs, :cats].each do |pet|
     pet.mood = "nervous"
+  end
 
   def self.reset_all
     @@all.clear
