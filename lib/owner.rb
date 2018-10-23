@@ -8,7 +8,7 @@ class Owner
     @@all << self
   end
 
-  def owner_count
+  def reset_all
     @@all.size
   end
   
