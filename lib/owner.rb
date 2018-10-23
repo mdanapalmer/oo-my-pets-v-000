@@ -16,7 +16,7 @@ class Owner
 
   def buy_fish(name)
     fish = Fish.new("name")
-    @pets[:fishes] = ("name")
+    @pets[:fishes] = ("fish")
   end
 
   def self.reset_all
