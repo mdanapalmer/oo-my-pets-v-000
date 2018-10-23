@@ -56,6 +56,9 @@ def sell_pets
 end
 end
 
+def list_pets
+  "I have #{pets[:fishes].size} fish, #{pets[:dogs].length} dogs, and #{pets[:cats].count} cats."
+
   def self.reset_all
     @@all.clear
   end
