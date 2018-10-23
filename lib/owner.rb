@@ -54,6 +54,7 @@ def sell_pets
   end
   pets.clear
 end
+end
 
   def self.reset_all
     @@all.clear
