@@ -37,8 +37,14 @@ end
 
 def play_with_cats
   pets[:cats].each do |cat|
-  Cat.mood = "happy"
+  cat.mood = "happy"
 end
+end
+
+def feed_fish
+  pets[:fishes].each do |fish|
+    fish.mood = "happy"
+  end
 end
 
   def self.reset_all
