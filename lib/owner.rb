@@ -57,7 +57,8 @@ end
 end
 
 def list_pets
-  "I have #{pets[:fishes].size} fish, #{pets[:dogs].length} dogs()), and #{pets[:cats].count} cat(s)."
+  "I have #{pets[:fishes].size} fish, #{pets[:dogs].length} dog(s), and #{pets[:cats].count} cat(s)."
+end
 
   def self.reset_all
     @@all.clear
