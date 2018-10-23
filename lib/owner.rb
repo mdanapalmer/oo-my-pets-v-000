@@ -14,6 +14,10 @@ class Owner
     "I am a #{species}."
   end
 
+  def buy_fish(name)
+    @pets[fishes:] "Bubbles"
+  end
+
   def self.reset_all
     @@all.clear
   end
