@@ -12,8 +12,6 @@ class Owner
     @@all.size
   end
   
-
-
   def self.all
     @@all
   end
