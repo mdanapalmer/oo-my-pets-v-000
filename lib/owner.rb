@@ -15,7 +15,7 @@ class Owner
   end
 
   def buy_fish(name)
-    @pets[:fishes] "Bubbles"
+    @pets[:fishes] ("Bubbles")
   end
 
   def self.reset_all
