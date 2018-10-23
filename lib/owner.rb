@@ -1,6 +1,6 @@
 class Owner
 
-  @@owners = []
-  
+  @@all = []
+
 
 end
