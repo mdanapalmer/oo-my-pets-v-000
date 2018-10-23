@@ -33,6 +33,7 @@ class Owner
     pets[:dogs].each do |dawg|
     dawg.mood = "happy"
   end
+end
 
   def self.reset_all
     @@all.clear
